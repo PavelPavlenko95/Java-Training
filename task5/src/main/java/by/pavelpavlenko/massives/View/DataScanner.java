@@ -9,7 +9,7 @@ public class DataScanner {
 
     public int scanExerciseNumber() {
         int result = 0;
-        System.out.println("Введите номер задачи(4,9,14,19 для выхода - любое другое значение):");
+        System.out.println("Введите номер задачи(4,9,14,19,1(дополнительное). Для выхода - любое другое значение):");
         try {
             do {
                 switch (in.nextInt()) {
@@ -27,7 +27,6 @@ public class DataScanner {
                         break;
                     case 1:
                         result = 5;
-
                     default:
                         break;
                 }
@@ -73,5 +72,17 @@ public class DataScanner {
             }
         }
         return array;
+    }
+
+    public int scanPosition() {
+        int position = 0;
+        try {
+            System.out.println("Введите количество элементов для сдвига: ");
+            position = in.nextInt();
+
+        } catch (InputMismatchException e) {
+            System.out.println("Данные введены некорректно!");
+        }
+        return position;
     }
 }

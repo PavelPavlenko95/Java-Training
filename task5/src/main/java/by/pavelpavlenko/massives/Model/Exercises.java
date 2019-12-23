@@ -41,4 +41,17 @@ public class Exercises extends Methods {
         int[] array = dataScanner.scanIntArray(arrayN);
         dataPrinter.printResultExercise19(findTheMostFrequentNumber(array));
     }
+
+    public void makeExerciseExtra1() {
+        DataScanner dataScanner = new DataScanner();
+        DataPrinter dataPrinter = new DataPrinter();
+        int arrayN = dataScanner.scanArrayN();
+        int[] array = dataScanner.scanIntArray(arrayN);
+        dataPrinter.printArrayExercise1(array);
+        reverse(array);
+        dataPrinter.printArrayReversed(array);
+        int positions = dataScanner.scanPosition();
+        move(array, positions);
+        dataPrinter.printArrayExercise1(array);
+    }
 }

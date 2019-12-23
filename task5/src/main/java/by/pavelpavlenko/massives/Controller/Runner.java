@@ -23,6 +23,9 @@ public class Runner {
                 case 4:
                     exercises.makeExercise19();
                     break;
+                case 5:
+                    exercises.makeExerciseExtra1();
+                    break;
                 default:
                     exit = true;
                     break;

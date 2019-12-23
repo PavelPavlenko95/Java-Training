@@ -13,6 +13,22 @@ public class DataPrinter {
         System.out.println();
     }
 
+    public void printArrayExercise1(int[] array) {
+        System.out.println("Массив: ");
+        for (int i = 0; i<array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
+        System.out.println();
+    }
+
+    public void printArrayReversed(int[] array) {
+        System.out.println("Зеркальный массив: ");
+        for (int i = 0; i<array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
+        System.out.println();
+    }
+
     public void printChangedArrayExercise9(double[] array) {
         System.out.println("Новый массив: ");
         for (int i = 0; i<array.length; i++) {

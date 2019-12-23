@@ -82,4 +82,25 @@ public class Methods {
         }
         return valResult;
     }
+
+    int[] reverse(int[] array) {
+        int tmp;
+        for (int i = 0; i < array.length/2; i++) {
+            tmp = array[array.length - 1 - i];
+            array[array.length - 1 - i] = array[i];
+            array[i] = tmp;
+        }
+        return array;
+    }
+
+    public static void move(int[] array, int positions) {
+        int size = array.length;
+        for (int i = 0; i < positions; i++) {
+            int temp = array[size - 1];
+            for (int j = size - 1; j > 0; j--) {
+                array[j] = array[j-1];
+            }
+            array[0] = temp;
+        }
+    }
 }
