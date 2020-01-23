@@ -8,7 +8,7 @@ public class DataPrinter {
 
         for (int i=1; i< abonent.size() + 1; i++){
 
-            System.out.println(i + ". " +  ;
+            System.out.println(i + ". " )  ;
 
         }
         

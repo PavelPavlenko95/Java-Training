@@ -4,9 +4,9 @@ public class InsertionSort {
 
     public int[] sort(int[] array) {
         for (int i = 0; i < array.length; i++) {
-            for (int j=i; j>0 && array[j-1]>array[j]; j--){
-                swap(array, j-1, j);
-            }
+                for (int j=i; j>0 && array[j-1]>array[j]; j--){
+                    swap(array, j-1, j);
+                }
         }
         return array;
     }

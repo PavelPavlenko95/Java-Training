@@ -32,7 +32,7 @@ return abonent;
 
     public int scanActionNumber() {
         int result = 0;
-        System.out.println("1 - добавить нового абонента. 2 - удалить абонента по id. 3 - Для выхода - любое другое значение):");
+        System.out.println("1 - добавить нового абонента. 2- вывести список абонентов - Для выхода - любое другое значение):");
         try {
             do {
                 switch (in.nextInt()) {

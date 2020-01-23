@@ -20,14 +20,14 @@ public class Runner {
 //        BubbleSort bubbleSort = new BubbleSort();
 //        bubbleSort.sort(array);
 
-//        InsertionSort insertionSort = new InsertionSort();
-//        insertionSort.sort(array);
+        InsertionSort insertionSort = new InsertionSort();
+        insertionSort.sort(array);
 
 //        CocktailSort cocktailSort = new CocktailSort();
 //        cocktailSort.sort(array);
-
-        BinaryInsertionSort binaryInsertionSort = new BinaryInsertionSort();
-        binaryInsertionSort.sort(array);
+//
+//        BinaryInsertionSort binaryInsertionSort = new BinaryInsertionSort();
+//        binaryInsertionSort.sort(array);
 
         for (int i = 0; i < 10; i++) {
             System.out.print(array[i] + " ");
