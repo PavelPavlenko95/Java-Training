@@ -1,0 +1,53 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"-->
+<!--           xmlns:xs="http://www.w3.org/2001/XMLSchema">-->
+<!--    <xs:element name="TrainingPortal">-->
+<!--        <xs:complexType>-->
+<!--            <xs:sequence>-->
+<!--                <xs:element maxOccurs="unbounded" name="category">-->
+<!--                    <xs:complexType>-->
+<!--                        <xs:sequence>-->
+<!--                            <xs:element name="lecture">-->
+<!--                                <xs:complexType name ="subject">-->
+<!--                                    <xs:sequence>-->
+<!--                                        <xs:element name="name" type="xs:string"/>-->
+<!--                                        <xs:element name="type">-->
+<!--                                            <xs:simpleType>-->
+<!--                                                <xs:restriction base="xs:string">-->
+<!--                                                    <xs:enumeration value="Lecture"/>-->
+<!--                                                    <xs:enumeration value="Practice"/>-->
+<!--                                                </xs:restriction>-->
+<!--                                            </xs:simpleType>-->
+<!--                                        </xs:element>-->
+<!--                                        <xs:element name="link" type="xs:string"/>-->
+<!--                                        <xs:element name="length">-->
+<!--                                            <xs:simpleType>-->
+<!--                                                <xs:restriction base="xs:double">-->
+<!--                                                    <xs:maxExclusive value="130"/>-->
+<!--                                                </xs:restriction>-->
+<!--                                            </xs:simpleType>-->
+<!--                                        </xs:element>-->
+<!--                                        <xs:element name="tests">-->
+<!--                                            <xs:simpleType>-->
+<!--                                                <xs:restriction base="xs:string">-->
+<!--                                                    <xs:pattern value="true|false"/>-->
+<!--                                                </xs:restriction>-->
+<!--                                            </xs:simpleType>-->
+<!--                                        </xs:element>-->
+<!--                                        <xs:element name="date">-->
+<!--                                            <xs:simpleType>-->
+<!--                                                <xs:restriction base="xs:string">-->
+<!--                                                    <xs:pattern value="[0-9]"/>-->
+<!--                                                </xs:restriction>-->
+<!--                                            </xs:simpleType>-->
+<!--                                        </xs:element>-->
+<!--                                    </xs:sequence>-->
+<!--                                </xs:complexType>-->
+<!--                            </xs:element>-->
+<!--                        </xs:sequence>-->
+<!--                    </xs:complexType>-->
+<!--                </xs:element>-->
+<!--            </xs:sequence>-->
+<!--        </xs:complexType>-->
+<!--    </xs:element>-->
+<!--</xs:schema>-->

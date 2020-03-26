@@ -1,0 +1,105 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<TrainingPortal>-->
+<!--        <category id = "1" name = "Beginner">-->
+<!--                <lecture id = "1">-->
+<!--                    <name>First</name>-->
+<!--                    <type>Lecture</type>-->
+<!--                    <link>youtube.com/123</link>-->
+<!--                    <length>65.34</length>-->
+<!--                    <tests>true</tests>-->
+<!--                    <date>01.11.2019</date>-->
+<!--                </lecture>-->
+<!--                <lecture id = "2">-->
+<!--                    <name>Second</name>-->
+<!--                    <type>Lecture</type>-->
+<!--                    <link>youtube.com/1234</link>-->
+<!--                    <length>63</length>-->
+<!--                    <tests>true</tests>-->
+<!--                    <date>02.11.2019</date>-->
+<!--                </lecture>-->
+<!--                <lecture id = "3">-->
+<!--                    <name>Third</name>-->
+<!--                    <type>Practice</type>-->
+<!--                    <link>youtube.com/12345</link>-->
+<!--                    <length>30</length>-->
+<!--                    <tests>false</tests>-->
+<!--                    <date>03.11.2019</date>-->
+<!--                </lecture>-->
+<!--                <lecture id = "4">-->
+<!--                    <name>Fourth</name>-->
+<!--                    <type>Practice</type>-->
+<!--                    <link>youtube.com/12356</link>-->
+<!--                    <length>30</length>-->
+<!--                    <tests>false</tests>-->
+<!--                    <date>04.11.2019</date>-->
+<!--                </lecture>-->
+<!--        </category>-->
+<!--        <category id="2" name="Intermediate">-->
+<!--                <lecture id = "5">-->
+<!--                    <name>Fifth</name>-->
+<!--                    <type>Lecture</type>-->
+<!--                    <link>youtube.com/22223</link>-->
+<!--                    <length>74</length>-->
+<!--                    <tests>true</tests>-->
+<!--                    <date>05.11.2019</date>-->
+<!--                </lecture>-->
+<!--                <lecture id = "6">-->
+<!--                    <name>Sixth</name>-->
+<!--                    <type>Lecture</type>-->
+<!--                    <link>youtube.com/34564</link>-->
+<!--                    <length>55</length>-->
+<!--                    <tests>true</tests>-->
+<!--                    <date>06.11.2019</date>-->
+<!--                </lecture>-->
+<!--                <lecture id = "7">-->
+<!--                    <name>Seventh</name>-->
+<!--                    <type>Lecture</type>-->
+<!--                    <link>youtube.com/224322</link>-->
+<!--                    <length>36</length>-->
+<!--                    <tests>true</tests>-->
+<!--                    <date>07.11.2019</date>-->
+<!--                </lecture>-->
+<!--                <lecture id = "8">-->
+<!--                    <name>Eight</name>-->
+<!--                    <type>Practice</type>-->
+<!--                    <link>youtube.com/222132</link>-->
+<!--                    <length>25</length>-->
+<!--                    <tests>false</tests>-->
+<!--                    <date>08.11.2019</date>-->
+<!--                </lecture>-->
+<!--        </category>-->
+<!--        <category id="3" name="Advanced">-->
+<!--                <lecture id = "9">-->
+<!--                    <name>Ninth</name>-->
+<!--                    <type>Practice</type>-->
+<!--                    <link>youtube.com/298732</link>-->
+<!--                    <length>110</length>-->
+<!--                    <tests>false</tests>-->
+<!--                    <date>09.11.2019</date>-->
+<!--                </lecture>-->
+<!--                <lecture id = "10">-->
+<!--                    <name>Final first</name>-->
+<!--                    <type>Practice</type>-->
+<!--                    <link>youtube.com/286463</link>-->
+<!--                    <length>115</length>-->
+<!--                    <tests>false</tests>-->
+<!--                    <date>10.11.2019</date>-->
+<!--                </lecture>-->
+<!--                <lecture id = "11">-->
+<!--                    <name>Final second</name>-->
+<!--                    <type>Practice</type>-->
+<!--                    <link>youtube.com/302761</link>-->
+<!--                    <length>100</length>-->
+<!--                    <tests>false</tests>-->
+<!--                    <date>11.11.2019</date>-->
+<!--                </lecture>-->
+<!--                <lecture id = "12">-->
+<!--                    <name>Final third</name>-->
+<!--                    <type>Practice</type>-->
+<!--                    <link>youtube.com/926321</link>-->
+<!--                    <length>99</length>-->
+<!--                    <tests>false</tests>-->
+<!--                    <date>12.11.2019</date>-->
+<!--                </lecture>-->
+<!--        </category>-->
+<!--</TrainingPortal>-->

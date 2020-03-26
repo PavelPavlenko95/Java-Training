@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+        xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.pavelpavlenko.by/trainingportal"
+        xmlns:tns="http://www.pavelpavlenko.by/trainingportal"
+>
+    <element name="TrainingPortal">
+        <complexType>
+            <sequence>
+                <element maxOccurs="unbounded" name="category" type="tns:category"/>
+            </sequence>
+        </complexType>
+    </element>
+    <complexType name="category">
+        <sequence>
+            <element maxOccurs="unbounded" name="lecture" type="tns:lecture"/>
+        </sequence>
+        <attribute name="id" type="int"/>
+        <attribute name="name" type="string"/>
+    </complexType>
+    <complexType name="lecture">
+        <sequence>
+            <element name="name" type="string"/>
+            <element name="type">
+                <simpleType>
+                    <restriction base="string">
+                        <enumeration value="Lecture"/>
+                        <enumeration value="Practice"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="link" type="string"/>
+            <element name="length">
+                <simpleType>
+                    <restriction base="double">
+                        <minExclusive value="1"/>
+                        <maxExclusive value="120"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="tests">
+                <simpleType>
+                    <restriction base="string">
+                        <pattern value="true|false"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="date">
+                <simpleType>
+                    <restriction base="string">
+                        <pattern value="[0-9.]{10}"/>
+                    </restriction>
+                </simpleType>
+            </element>
+        </sequence>
+        <attribute name="id" type="int" use="required"/>
+    </complexType>
+</schema>
